@@ -1,22 +1,20 @@
-# Go Fish (C++)
+# Go Fish (Python)
 
-A C++ implementation of the classic card game "Go Fish".
+A Python implementation of the classic card game "Go Fish".
 
 ## Features
-- **Object-Oriented Design**: Clean implementation using classes for `Card`, `Deck`, and `Player`.
+- **Object-Oriented Design**: Clean implementation using classes for `Card`, `PlayerHand`, and game logic.
 - **Game Logic**: Full game rules including asking for cards, drawing from the deck, and forming books.
 - **Interactive Console**: Play against a computer opponent in the terminal.
 
-## building & Running
+## Running
 
-Requires a C++ compiler (e.g., g++, clang++).
+Requires Python 3.
 
 ```bash
-# Compile
-g++ -o go_fish main.cpp deck.cpp player.cpp card.cpp
-
-# Run
-./go_fish
+python main.py
+# or depending on your entry point
+python GoFishGame.py
 ```
 
 ## License
